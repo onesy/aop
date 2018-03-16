@@ -399,7 +399,7 @@ class AopClient {
 
         $this->setupCharsets($request);
 
-        //		//  如果两者编码不一致，会出现签名验签或者乱码
+        //  如果两者编码不一致，会出现签名验签或者乱码
         if (strcasecmp($this->fileCharset, $this->postCharset)) {
 
             // writeLog("本地文件字符集编码与表单提交编码不一致，请务必设置成一样，属性名分别为postCharset!");
