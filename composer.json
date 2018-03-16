@@ -1,0 +1,14 @@
+{
+    "name": "onesy/aop",
+    "description": "rebuild ali aop",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunyuw",
+            "email": "1587273742@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
